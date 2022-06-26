@@ -6,6 +6,9 @@ export default function DayList(){
     //const [days, setDays] = useState([]);
     //const [count, setCount] = useState(0);
     const days = useFetch('http://localhost:3001/days');
+    if(days.length === 0) {
+        return <span>Loding...</span>
+    }
    /* function onClick(){
         setCount(count+1);
     }

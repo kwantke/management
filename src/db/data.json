@@ -137,6 +137,27 @@
       "kor": "아빠",
       "isDone": false,
       "id": 18
+    },
+    {
+      "day": "1",
+      "eng": "dish",
+      "kor": "그릇",
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "day": "1",
+      "eng": "hand",
+      "kor": "손",
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "day": "1",
+      "eng": "title",
+      "kor": "제목",
+      "isDone": false,
+      "id": 21
     }
   ]
 }
