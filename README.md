@@ -7,7 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-
+### npm install react-router-dom
+### npm install -g json-server * DB 설치나 백엔드 구축이 힘들때 간단하게 구축할수 있는게 json server다 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
