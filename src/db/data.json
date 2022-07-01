@@ -23,6 +23,10 @@
     {
       "day": 6,
       "id": 6
+    },
+    {
+      "day": 7,
+      "id": 7
     }
   ],
   "words": [
@@ -88,13 +92,6 @@
       "kor": "사과",
       "isDone": false,
       "id": 11
-    },
-    {
-      "day": "1",
-      "eng": "window",
-      "kor": "창문",
-      "isDone": false,
-      "id": 12
     },
     {
       "day": "1",

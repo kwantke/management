@@ -8,6 +8,12 @@ export default function Day() {
    // const day = useParams.day;
     const {day} = useParams();
     const words = useFetch(`http://localhost:3001/words?day=${day}`);
+
+    setTimeout( function() {
+        if(words.length == 0){
+            document.getElementById('noneData').innerText="단어가 없습니다.";
+        }
+    },5000);
     //const [words, setWords] = useState([]);
     /*const wordList = dummy.words.filter(word =>(
         word.day === day
@@ -27,7 +33,7 @@ export default function Day() {
     console.log(a);*/
     return <>
         <h2>Day {day}</h2>
-        {words.length ===0 && <span>Loding...</span>}
+        {words.length ===0 && <span id="noneData" >Loding...</span>}
         <table>
             <tbody>
                 {words.map(word =>(
